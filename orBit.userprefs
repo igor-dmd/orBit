@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AttractorBody.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerMovement2.cs">
     <Files>
-      <File FileName="Assets\Scripts\AttractedBody.cs" Line="15" Column="12" />
-      <File FileName="Assets\Scripts\AttractorBody.cs" Line="12" Column="32" />
+      <File FileName="Assets\Scripts\AttractedBody.cs" Line="22" Column="56" />
+      <File FileName="Assets\Scripts\AttractorBody.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerMovement2.cs" Line="5" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -17,4 +17,8 @@ public class AttractedBody : MonoBehaviour {
 			attractor.Attract(myTransform);
 		}
 	}
+
+	void LateUpdate() {
+		GetComponent<Rigidbody2D> ().velocity = Vector2.zero;
+	}
 }
