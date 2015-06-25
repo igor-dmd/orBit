@@ -6,7 +6,7 @@ public class AttractedBody : MonoBehaviour {
 	public AttractorBody attractor;
 
 	void Start () {
-		GetComponent<Rigidbody2D> ().fixedAngle = false;
+		GetComponent<Rigidbody2D> ().freezeRotation = true;
 	}
 
 	void OnTriggerEnter2D(Collider2D orbit) {
