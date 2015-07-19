@@ -19,13 +19,6 @@ public class AttractedBody : MonoBehaviour {
 	void FixedUpdate () {
 
 		if (attractor) {
-//			Vector2 attractorPosition = attractor.gameObject.transform.position;
-//			float planetRadius = attractor.gameObject.GetComponent<CircleCollider2D>().radius;
-//
-//			if (Vector2.Distance(transform.position, attractorPosition) < planetRadius * 2) {
-//				attractor.Attract(transform);
-//			}
-
 			attractor.Attract(transform);
 		}
 	}
